@@ -1,0 +1,10 @@
+{
+  "title": "Volunteering Application",
+  "technologies": "Java, Google Cloud Platform",
+  "description":  [
+    "By the end of my third year in university, I was assigned a group project for creating an application to create volunteering events.",
+    "The application was created with both a website using React and a mobile application for Android. However, I was mostly in charge of the mobile application as well as using Google Cloud Platform for the database and other features.",
+    "The mobile application was implemented with Java. I created different features such as a Google login option, drawing maps and routes using Google Maps API, searching for events in the database and completing these events by going through the map markers."
+  ],
+  "mainImage": "p02-landing.png"
+}

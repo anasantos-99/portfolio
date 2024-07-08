@@ -1,0 +1,10 @@
+{
+  "title": "Designer's Portfolio",
+  "technologies": "HTML, CSS, JavaScript",
+  "description": [
+    "For this project, I helped a friend with a new look for her personal portfolio website, which showcases her artwork in design, illustrations and cinematography. I opted for a simple and clean design style that would be easy to use and to adapt to mobile devices.",
+    "One of the challenges was actually to choose the best platform for the portfolio website, in order to have a free plan that would provide flexibility with the resources, while still being easy for my friend to use. Both Wix and WordPress were considered, but in the end both of these were somewhat limited with the free plan offers. I suggested using Tumblr, which is great for blog platforms, and the theme is fully customizable as it allows JavaScript usage. As such, I could personalize everything on my end, without my friend having to deal with any of the more complicated parts.",
+    "I had a lot of freedom for this website, since the only requirements were to include filters for the type of projects in the portfolio and for the image previews for the portfolio section to include the whole image without cutting it, in a grid layout. For this type of layout, I was already familiar with Isotope grid layout, so that is what I chose to display the images for the portfolio in full height."],
+  "mainImage": "d06-landing.png",
+  "preview": "https://eduardasnobregaportfolio.tumblr.com/"
+}

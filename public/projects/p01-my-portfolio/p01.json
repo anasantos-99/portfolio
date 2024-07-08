@@ -1,0 +1,11 @@
+{
+  "title": "Personal Portfolio",
+  "technologies": "React, Vite, CSS (Tailwind)",
+  "description":  [
+    "My portfolio is created using React and Vite. Despite being a simple project, I learned a few things along the way, such as how to use Framer Motion for the page animations and how to dynamically import all the project images through Vite. It was also my first time using Tailwind for a project.",
+    "Admittedly, the hardest part about the portfolio was to create something that I liked and I felt represented me, while still keeping it simple. For a first attempt, I'm glad about how it turned out."
+  ],
+  "mainImage": "p01-landing.png",
+  "preview": "https://anasantos.netlify.app/",
+  "code": "https://github.com/anasantos-99/portfolio"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Deliveries Application",
+  "technologies": "Spring Boot, Kotlin, MySQL, React, TypeScript, Redux, CSS",
+  "description":  [
+    "As a group of four, we developed an application for managing the state of packages sent in a delivery system for one of our university projects. This is one of my most complete projects, with an array of different technologies for the back-end and front-end.",
+    "The back-end was created with the Spring Boot framework, using Kotlin, and features a layered architecture. Our system uses MySQL for the database. All the operations are documented using OpenAPI. As for the front-end, the application is created with React and uses TypeScript, as well as Redux for the state management. Due to the variety of tools I learned to use and the outcome, this is definitely one of my favorite projects.",
+    "For the back-end, I was in charge of some of the operations, as well as managing the authorizations. Whereas for the front-end, I designed some of the pages, created the verifications for the forms for login and register, and I also implemented state management with Redux."
+  ],
+  "mainImage": "p03-landing.png"
+}
