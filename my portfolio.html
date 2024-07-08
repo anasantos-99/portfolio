@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ana Santos</title>
+    <link rel="shortcut icon" href="./public/icon.png">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    <meta name="description" content="{MetaDescription}" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link href="my portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+<div id="sidebar" class="flex">
+    <div id="logo">Ana</div>
+    <div></div>
+    <div class="flex socials">
+        <a href="https://www.linkedin.com/in/ana-santos999/"><i class='bx bxl-linkedin-square' ></i></a>
+        <a href="https://github.com/anasantos-99/"><i class='bx bxl-github' ></i></a>
+    </div>
+</div>
+
+<div id="wrapper">
+
+    <section id="landing" class="hidden">
+        <div class="flex">
+            <div class="flex">
+                <div class="flex flex-col">
+                    <h1>Hi, I'm Ana</h1>
+                    <h2 data-value="Developer">Developer</h2>
+                    <p>
+                        I was never sure about what I wanted to do for a living.
+                        When I started studying computer science, it finally clicked.
+                        I am especially passionate about front-end development, as I have this persistent need to make things look both functional and pleasing to the eye.
+                        I also just love tinkering with different layouts.
+                        Outside of curly brackets, I enjoy reading, writing and journaling, preferably with a nice cup of coffee by my side.
+                    </p>
+                </div>
+                <img src="https://i.imgur.com/yjSGTf1.png" />
+            </div>
+            <ul class="flex">
+                <li><i class="fa-brands fa-java"></i><span>Java</span></li>
+                <li><i class="fa-brands fa-golang"></i><span>Go</span></li>
+                <li><i class="fa-brands fa-html5"></i><span>HTML</span></li>
+                <li><i class="fa-brands fa-css3"></i><span>CSS</span></li>
+                <li><i class='bx bxl-javascript' ></i><span>JavaScript</span></li>
+                <li><i class='bx bxl-spring-boot'></i><span>Spring Boot</span></li>
+                <li><i class="fa-brands fa-react"></i><span>React</span></li>
+                <li><i class='bx bxl-flutter' ></i><span>Flutter</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="hidden">
+        <h3><i class="fa-solid fa-gears"></i>Projects</h3>
+
+        <div class="flex">
+            <h4>Package Delivery Application</h4>
+            <h5>Spring Boot, Kotlin, MySQL, React, Typescript, Redux, HTML, CSS</h5>
+            <div>
+                <img src="public/projects/project-package-delivery/landing.png" title="Landing Page" alt="Landing Page" />
+            </div>
+        </div>
+
+        <div class="flex">
+            <h4>Volunteering Application</h4>
+            <h5>Java, Google Cloud Platform</h5>
+            <div>
+                <img src="public/projects/project-volunteering/view_route.png" alt="View Route" />
+            </div>
+        </div>
+    </section>
+
+    <section id="experiments" class="hidden">
+        <h3><i class="fa-solid fa-flask-vial"></i>Experiments</h3>
+
+        <h4>Web Portfolio Design</h4>
+        <h5>HTML, CSS, Javascript</h5>
+        <div>
+            <img src="https://i.imgur.com/4qLSKFg.png" />
+        </div>
+
+        <h4>Web Forum Design</h4>
+        <h5>HTML, CSS, Javascript</h5>
+        <div>
+            <img src="https://i.imgur.com/Kw3JiMh.png" />
+        </div>
+
+        <h4>Web Forum Design</h4>
+        <h5>HTML, CSS, Javascript</h5>
+        <div>
+            <img src="https://64.media.tumblr.com/15a3f5b34a8e7c80db24c92b04fcb80b/905def0acc93db07-d8/s1280x1920/63917ef503b4c87de93b76cf6d13411a091167ee.png" />
+        </div>
+
+        <h4>Web Forum Design</h4>
+        <h5>HTML, CSS, Javascript</h5>
+        <div>
+            <img src="https://i.imgur.com/tuotnkH.png" />
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h3><i class="fa-solid fa-envelope"></i>Contact</h3>
+        <div class="flex">
+            <h4>E-mail</h4>
+            <p>ana.pl.santos99@gmail.com</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="flex">
+            <input type="hidden" name="access_key" value="e9892ef1-c72f-4641-a605-14126d988b20" />
+            <div>
+                <label htmlFor="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" />
+            </div>
+            <div>
+                <label htmlFor="name">Your E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your email" />
+            </div>
+
+            <div>
+                <label htmlFor="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" />
+        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </section>
+
+    <div id="footer">
+        <a href="http://www.freepik.com">Illustration designed by catalyststuff / Freepik</a>
+    </div>
+
+</div>
+
+<script>
+    // page animations
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if(entry.isIntersecting) {
+                entry.target.classList.add('show');
+                headerRewrite();
+            } else {
+                entry.target.classList.remove('show');
+            }
+        })
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((elem) => observer.observe(elem));
+
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const event = new Event("letters");
+    document.querySelector("h2").addEventListener("letters", event => {
+        let iterations = 0;
+        let interval = setInterval(() => {
+            event.target.innerText = event.target.innerText.split("")
+                .map((letter, index) => {
+                    if (index < iterations) {
+                        return event.target.dataset.value[index];
+                    }
+                    return letters[Math.floor(Math.random() * 26)];
+                }).join("");
+
+            if (iterations >= event.target.dataset.value.length) {
+                clearInterval(interval);
+            }
+
+            iterations += 1;
+        }, 80);
+    });
+
+    function headerRewrite() {
+        setTimeout(() => {
+            document.querySelector("h2").dispatchEvent(event);
+        }, 200);
+    }
+
+</script>
+
+</body>
+</html>

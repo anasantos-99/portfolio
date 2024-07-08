@@ -1,0 +1,44 @@
+#contact form > div {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: .5rem;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+input[type="text"], input[type="email"], textarea#message {
+    width: 100%;
+    padding: 1.2rem;
+    background: #111;
+    border: 1px solid #ffffff42;
+}
+
+input[aria-invalid="true"], textarea#message[aria-invalid="true"] {
+    border: 1px solid #bf3030;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    padding: .6rem 1.5rem;
+    background: #111;
+    border: 1px solid #ffffff42;
+    color: #fff;
+    font-weight: 800;
+    transition: all .6s ease;
+}
+
+input[type=submit]:hover {
+    background: var(--accent);
+    border-color: #000;
+    color: #000;
+}
+
+span[role="alert"] {
+    display: block;
+    padding-top: 1rem;
+    font-weight: 700;
+    color: #bf3030;
+}

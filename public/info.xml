@@ -1,0 +1,94 @@
+<root>
+
+    For each project, write a short explanation about what it was for, the tools you used, your role, any challenges, and what you achieved.
+    Motivation - Why did you start this project? What issue does it fix?
+    Process - How did you go about making it? What tools or methods did you use?
+    Outcomes - What did you end up with? How does it work and what can it do?
+
+    <!--    PROJECTS    -->
+    <project>
+        <title>Deliveries Application</title>
+        <description>
+            As a group of four, we developed an application for managing the state of packages sent in a delivery system for one of our university projects. This is one of my most complete projects, with an array of different technologies for the back-end and front-end.
+
+            The back-end was created with the Spring Boot framework, using Kotlin, and features a layered architecture. Our system uses MySQL for the database. All the operations are documented using OpenAPI. As for the front-end, the application is created with React and uses TypeScript, as well as Redux for the state management. Due to the variety of tools I learned to use and the outcome, this is definitely one of my favorite projects.
+
+            For the back-end, I was in charge of some of the operations, as well as managing the authorizations. Whereas for the front-end, I designed some of the pages, created the verifications for the forms for login and register, and I also implemented state management with Redux.
+        </description>
+    </project>
+
+    <project>
+        <title>Volunteering Application</title>
+        <description>
+            By the end of my third year in university, I was assigned a group project for creating an application to create volunteering events.
+
+            The application was created with both a website using React and a mobile application for Android. However, I was mostly in charge of the mobile application as well as using Google Cloud Platform for the database and other features.
+
+            The mobile application was implemented with Java. I created different features such as a Google login option, drawing maps and routes using Google Maps API, searching for events in the database and completing these events by going through the map markers.
+        </description>
+    </project>
+
+    <project>
+        <title>Personal Portfolio</title>
+        <description>
+            My portfolio is created using React and Vite. Despite being a simple project, I learned a few things along the way, such as how to use Framer Motion for the page animations and how to dynamically import all the project images through Vite. It was also my first time using Tailwind for a project.
+
+            Admittedly, the hardest part about the portfolio was to create something that I liked and I felt represented me, while still keeping it simple. For a first attempt, I'm glad about how it turned out.
+        </description>
+    </project>
+
+    <!--    EXPERIMENTS    -->
+
+    <project>
+        <title>Designer's Portfolio</title>
+        <description>
+            For this project, I helped a friend with a new look for her personal portfolio website, which showcases her artwork in design, illustrations and cinematography. I opted for a simple and clean design style that would be easy to use and to adapt to mobile devices.
+
+            One of the challenges was actually to choose the best platform for the portfolio website, in order to have a free plan that would provide flexibility with the resources, while still being easy for my friend to use. Both Wix and WordPress were considered, but in the end both of these were somewhat limited with the free plan offers. I suggested using Tumblr, which is great for blog platforms, and the theme is fully customizable as it allows JavaScript usage. As such, I could personalize everything on my end, without my friend having to deal with any of the more complicated parts.
+
+            I had a lot of freedom for this website, since the only requirements were to include filters for the type of projects in the portfolio and for the image previews for the portfolio section to include the whole image without cutting it, in a grid layout. For this type of layout, I was already familiar with Isotope grid layout, so that is what I chose to display the images for the portfolio in full height.
+        </description>
+    </project>
+
+    <project>
+        <title>Arcane Forum Design</title>
+        <description>
+            This was a small freelance project for me to create a design for a Harry Potter themed RPG forum. The forum administrators wished for a dark skin, with green as the main color and gold for accents. The emphasis was the page header, which features a starry animation.
+        </description>
+    </project>
+
+    <project>
+        <title>FR Forum Design</title>
+        <description>
+            I designed my friend's RPG forum with a minimalist theme, allowing for a light or dark mode. This was something very simple, since we wanted the design to be available as soon as possible.
+        </description>
+    </project>
+
+    <project>
+        <title>WoS Forum Design</title>
+        <description>
+            I created the design for a Game of Thrones themed forum, with a very clean design using soft colors.
+        </description>
+
+    <project>
+        <title>Hogwarts Forum Design</title>
+        <description>
+            I was contacted to create a design for a Harry Potter themed forum. Usually, I have full freedom with the creation of the design and layout, but with this one the forum administrators already had a lot of ideas for me to translate into HTML/CSS. I actually liked this, since this way I knew exactly what they had envisioned.
+        </description>
+    </project>
+    </project>
+
+    <project>
+        <title>Revival Forum Design</title>
+        <description>
+            I created a design for a Game of Thrones forum, while using a chess theme for the layouts.
+        </description>
+    </project>
+
+    <project>
+        <title>Neon Forum Design</title>
+        <description>
+
+        </description>
+    </project>
+</root>

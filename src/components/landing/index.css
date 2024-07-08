@@ -1,0 +1,77 @@
+@keyframes floating {
+    0% {transform: translateY(0px)}
+    50% {transform: translateY(-20px)}
+    100% {transform: translateY(0px)}
+}
+
+#landing {
+    height: 100vh;
+}
+
+#landing p {
+    width: 35em;
+    text-align: justify;
+}
+
+#landing img {
+    width: 30rem;
+}
+
+#landing li {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .4rem;
+    animation: floating 5s linear infinite;
+}
+
+#landing li:nth-child(even) {
+    animation-delay: .3s;
+}
+
+#landing li svg {
+    font-size: 2em;
+}
+
+#landing button {
+    animation: floating 5s linear infinite;
+    color: var(--accent);
+}
+
+#landing button svg {
+    background: var(--accent);
+}
+
+@media only screen and (max-width: 768px) {
+    #landing {
+        padding-top: 2.7rem;
+        height: auto;
+    }
+
+    #landing .about-me {
+        flex-direction: column-reverse;
+    }
+
+    #landing img {
+        width: 60%;
+    }
+
+    #landing p {
+        width: 19em;
+    }
+
+    #landing ul {
+        flex-wrap: wrap;
+    }
+
+    #landing li {
+        width: 25%;
+        margin-bottom: 1rem;
+    }
+
+    #landing li span {
+        display: none;
+    }
+}

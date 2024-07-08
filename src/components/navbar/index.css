@@ -1,0 +1,59 @@
+#navlinks {
+    background: #674880 url(https://i.imgur.com/dmSbUtz.jpeg) fixed center / cover;
+    background-blend-mode: multiply;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all .4s ease;
+}
+
+.links span {
+    padding-right: .5rem;
+}
+
+.links .active {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.links .active span {
+    color: var(--accent);
+}
+
+.links a:not(.active) {
+    font-size: .7em;
+    letter-spacing: .03rem;
+}
+
+.divider {
+    width: 1px;
+    flex-grow: 1;
+    background: #ffffff26;
+}
+
+#logo {
+    font-weight: 300;
+    letter-spacing: -.06em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .links span {
+        display: none;
+    }
+
+    .links .active {
+        font-size: .5rem;
+    }
+
+    .links a:not(.active) {
+        font-size: .5em;
+        letter-spacing: 0;
+    }
+}

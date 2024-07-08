@@ -1,0 +1,18 @@
+#designs > div > div {
+    width: calc(33.33% - 2rem);
+}
+
+#designs h4 {
+    font-size: 1.7em;
+}
+
+#designs h5 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    #designs > div > div {
+        width: 100%;
+    }
+}
